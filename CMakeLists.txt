@@ -13,6 +13,8 @@ project(ros)
 hunter_add_package(Boost COMPONENTS thread)
 hunter_add_package(catkin)
 hunter_add_package(rospack)
+hunter_add_package(ros_message_runtime)
+hunter_add_package(ros_environment)
 
 add_subdirectory(core/rosbuild)
 add_subdirectory(core/roslang)
